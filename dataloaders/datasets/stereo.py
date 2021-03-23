@@ -223,6 +223,7 @@ def load_kitti2012_data(file_path, current_file):
     
     return temp_data
 
+# middlebury
 def load_data_md(file_path, current_file, eth=False):
     """ load current file from the list"""
     imgl = file_path + current_file[0: len(current_file) - 1]
